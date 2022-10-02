@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern HTML Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form action="#" method="post">
+        <p>
+            <label for="mail">
+                <span>Email:</span>
+                <strong>
+                    <span aria-label="required">*</span>
+                </strong>
+            </label>
+            <input type="email" name="usermail" id="mail" placeholder="enter email">
+        </p>
+        <p>
+            <label for="website">
+                <span>Website:</span>
+                <strong>
+                    <span aria-label="required">*</span>
+                </strong>
+            </label>
+            <input type="url" name="website" id="website" placeholder="enter website">
+        </p>
+        <p>
+            <label for="phone">
+                <span>Phone number:</span>
+                <strong>
+                    <span aria-label="required">*</span>
+                </strong>
+            </label>
+            <input type="tel" name="phone" id="phone" placeholder="enter phone number">
+        </p>
+        <p>
+            <label for="color">
+                <span>Favourite color:</span>
+                <strong>
+                    <span aria-label="required">*</span>
+                </strong>
+            </label>
+            <input type="color" name="color" id="color">
+        </p>
+        <p>
+            <label for="invite">
+                <span>Select maximum number of invitations:</span>
+                <strong>
+                    <span aria-label="required">*</span>
+                </strong>
+            </label>
+            <input type="range" name="invite" id="invite" min="1" max="30" step="1" value="10" />
+            <output class="invite-output" for="invite"></output>
+        </p>
+        <p>
+            <label for="myDate">
+                <span>When are you available this summer?:</span>
+                <strong>
+                    <span aria-label="required">*</span>
+                </strong>
+            </label>
+            <input type="date" name="myDate" id="myDate" />
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

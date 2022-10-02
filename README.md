@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is the solution to the Mozila Developer Network (MDN) [Web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms) article assessement. These assessment was embarked on to test my understanding of the the various HTML form elements, controls and validations. Kindly refers to the list of completed assessments. the forms were built with minimal css (styles) as possible with focus only on the HTML form structure.
+This is the solutions to the Mozila Developer Network (MDN) [Web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms) article assessement. These assessment was embarked on to test my understanding of the the various HTML form elements, controls and validations. Kindly refers to the list of completed assessments. the forms were built with minimal css (styles) as possible with focus only on the HTML form structure.
 
 
 ## Completed Assessment List (Working-in-progress)
@@ -12,6 +12,7 @@ This is the solution to the Mozila Developer Network (MDN) [Web forms](https://d
 - [x] Payment form
 - [x] Form structure 1
 - [x] Form control 1, 2 and 3
+- [x] Modern form control 1 and 2
 
  > [Live Demo Link]()
 

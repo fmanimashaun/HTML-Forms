@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body>*+* {
+    margin-block-start: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin-inline: auto;
+    border: 2px solid rgba(0, 0, 0, 0.426);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+p>label,
+p>input {
+    display: block;
+}
+
+span[aria-label="required"] {
+    color: red;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
