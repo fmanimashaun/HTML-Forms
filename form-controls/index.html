@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM CONTROL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML FORM CONTROLS IMPLEMENTATION</h1>
+    <section class="login">
+        <form action="#" method="post">
+            <h2>Login Page</h2>
+            <p>
+                <label for="userid">
+                    <span>User ID:</span>
+                    <strong>
+                        <span aria-label="required">*</span>
+                    </strong>
+                </label>
+                <input type="text" name="userid" id="userid" placeholder="User ID" required>
+            </p>
+            <p>
+                <label for="pwd">
+                    <span>Password:</span>
+                    <strong>
+                        <span aria-label="required">*</span>
+                    </strong>
+                </label>
+                <input type="password" name="password" id="pwd" placeholder="Password" required>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </section>
+    <section class="option">
+        <form action="#" method="post">
+            <h2>Checks and Radio controls</h2>
+            <fieldset>
+                <legend>
+                    <span>Who is your favourite pony?</span>
+                    <strong>
+                        <span aria-label="required">*</span>
+                    </strong>
+                </legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="pony" id="pie" value="Pinkle Pie" checked>
+                        <label for="pie">Pinkle Pie</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="pony" id="dash" value="Rainbow Dash">
+                        <label for="dash">Rainbow Dash</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="pony" id="sparkle" value="Twilight Sparkle">
+                        <label for="sparkle">Twilight Sparkle</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <span>Hotdog preferences</span>
+                    <strong>
+                        <span aria-label="required">*</span>
+                    </strong>
+                </legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="hotdog" id="vagan" value="Vagan" checked>
+                        <label for="vagan">Vagan</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="hotdog" id="onions" value="Onions">
+                        <label for="onions">Onions</label>
+                    </li>
+                </ul>
+
+            </fieldset>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </section>
+    <section class="file">
+        <form action="#" method="post">
+            <h2>File Input type</h2>
+            <ul>
+                <li>
+                    <label for="userimage">
+                        <span>Choose gallery images to upload:</span>
+                        <strong>
+                            <span aria-label="required">*</span>
+                        </strong>
+                    </label>
+                    <input type="file" name="userimage" id="userimage" accept="image/*" required>
+                </li>
+            </ul>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </section>
+</body>
+</html>
