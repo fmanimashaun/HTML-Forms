@@ -21,7 +21,7 @@ This is the solutions to the Mozila Developer Network (MDN) [Web forms](https://
 
 <h3 align="center">Coming soon</h3>
 <p align="center">
-  <img width="1440" height="900" src="#">
+  <img width="600" height="600" src="#">
 </P>
 
 
