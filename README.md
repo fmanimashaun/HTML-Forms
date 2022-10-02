@@ -1,55 +1,33 @@
 ![](https://img.shields.io/badge/fmanimashaun-blue)
 
-# My Personal Portfolio
+# Collection of HTML forms
 
 ## Overview
 
-The project is focus on create a professional portfolio site to showcase my professional skills and experience while highlighting some of my real-life projects and other professional contributions to give an insight into my professional capacity and uniqueness. The Live site can be view from [my personal site](https://fmanimashaun.com/).
+This is the solution to the Mozila Developer Network (MDN) [Web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms) article assessement. These assessment was embarked on to test my understanding of the the various HTML form elements, controls and validations. Kindly refers to the list of completed assessments. the forms were built with minimal css (styles) as possible with focus only on the HTML form structure.
 
 
-## Project Tasks List (Working-in-progress)
+## Completed Assessment List (Working-in-progress)
 
-- [x] Setting up the initial project structure
-- [x] mobile version skeleton
-- [ ] Contact form
-- [ ] Desktop version
-- [ ] Application deploy
-- [ ] Evaluate accessibility
-- [ ] Mobile menu
-- [ ] Details modal
-- [ ] Validate contact form
-- [ ] Preserve data in the browser
-- [ ] Finalising the project page
+- [x] Payment form
+- [x] Form structure 1
+- [x] Form control 1, 2 and 3
 
-> [Live Demo Link](https://fmanimashaun.com/)
+
+# > [Live Demo Link](https://fmanimashaun.com/)
 
 
 ## Screenshots
 
-<h3 align="center">Desktop View</h3>
+<h3 align="center">Coming soon</h3>
 <p align="center">
-  <img width="1440" height="900" src="screenshots/desktop_demo.png">
+  <img width="1440" height="900" src="#">
 </P>
-
-
-<h3 align="center">Tablet View</h3>
-<p align="center">
-  <img width="768" height="1024" src="screenshots/tablet_demo.png">
-</P>
-
-
-<h3 align="center">Mobile View</h3>
-<p align="center">
-  <img height="800" src="screenshots/mobile_view.png">
-</P>
-
 
 ## Built With
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Algorithm Layout](https://every-layout.dev/)
 
 
 ## Authors
@@ -77,8 +55,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- [Figma Design Inspiration](https://www.figma.com/file/ZcNGugATyXmbMaYOdPHOZt/Microverse-Student-Project-1-(Copy)?node-id=23%3A9)
-
 
 ## 📝 License
 
